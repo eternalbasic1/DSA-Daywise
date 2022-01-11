@@ -50,39 +50,3 @@ def maximumMeetings(self,n,start,end):
 
 
 
-
-
-
-
-#todo: Previoud way
-# n=8
-# start = [75250,50074,43659,8931,11273,27545,50879,77924]
-# end =[112960,114515,81825,93424,54316,35533,73383,160252]
-# count = 0
-# combine = []
-# for i in range(n):
-#         combine.append([start[i],end[i]])
-# combine.sort(key=lambda x: x[1])
-# prev = combine[0]
-# todo = True
-# for i in range(n-1):
-#     if (combine[i][0]<combine[i+1][0] and combine[i][1]<=combine[i+1][0]) or (prev[1]<=combine[i][0]):
-#         if (combine[0][0] < combine[1][0] and combine[0][1] <= combine[1][0]):
-#             todo = False
-#
-#         prev = combine[i]
-#         count +=1
-
-
-# for i in range(n-1):
-#     if (combine[i][1] <= combine[i+1][0]) or (combine[i][1]<=prev[1]):
-#         prev = combine[i]
-#         print(combine[i])
-#
-#         count+=1
-# print(combine)
-# print(todo)
-# if todo:
-#     print(count+1)
-# else:
-#     print(count)
