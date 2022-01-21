@@ -22,4 +22,3 @@ for i in range(N+1):
     for j in range(max_len +1):
         print(t[i][j] , end= ' ')
     print()
-    9
